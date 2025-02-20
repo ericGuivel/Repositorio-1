@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="examen.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tecnología e Informática</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tecnología e Informatica</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#hardware">hardware</a></li>
+                <li><a href="#software">software</a></li>
+                <li><a href="#seguridad">seguridad</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="fondo-imagen">
+            </div>
+        </section>
+        <section id="introduccion">
+            <article>
+                <div>
+                    <details>
+                        <summary>Introducción</summary>
+                        <p>La informática es la disciplina encargada del estudio y desarrollo de sistemas computacionales...</p>
+                    </details>
+                </div>
+                <div>
+                    <img src="imagenes/ordenador.jpg" alt="Imagen Ordenador">
+                </div>
+            </article>
+        </section>
+
+        <section id="hardware">
+            <article>
+                <div>
+                    <details>
+                        <summary>hardware</summary>
+                        <p>El hardware comprende los componentes físicos de un sistema informático...</p>
+                    </details>
+                </div>
+                <div>
+                    <img src="imagenes/hardware.jpg" alt="Imagen Hardware">
+                </div>
+            </article>
+        </section>
+
+        <section id="software">
+            <article>
+                <div>
+                    <details>
+                        <summary>software</summary>
+                        <p>El software es el conjunto de programas y sistemas operativos que permiten el funcionamiento de una computadora...</p>
+                    </details>
+                </div>
+                <div>
+                    <img src="imagenes/software.jpg" alt="Imagen Software">
+                </div>
+            </article>
+        </section>
+
+        <section id="seguridad">
+            <article>
+		  <div>
+                    <details>
+                        <summary>seguridad</summary>
+                        <p>Contesta al siguiente formulario.</p>
+                    </details>
+                </div>          
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" maxlength="20">
+
+                    <label for="nombre">Edad:</label>
+                    <input type="number" id="edad" name="edad" min="5" max="100" required>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset>
+                        <legend>Preguntas sobre seguridad</legend>
+
+                        <label>
+                            <input type="checkbox" name="pregunta1" value="si">
+                            ¿Usas contraseñas seguras en cuentas?
+                        </label>
+                        <br>
+
+                        <label>
+                            <input type="checkbox" name="pregunta2" value="si">
+                            ¿Tienes activado algún dispositivo en tu antivirus?
+                        </label>
+                    </fieldset>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+
+        </section>
+    </main>
+    <footer id="pie">
+        <p>Curso Primero de Desarrollo Web 2025</p>
+    </footer>
+
+
+</body>
+
+</html>
